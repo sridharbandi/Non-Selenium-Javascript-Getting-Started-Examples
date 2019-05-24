@@ -1,0 +1,27 @@
+{
+  "name": "puppeteer-jasmine-template",
+  "version": "1.0.0",
+  "description": "Puppeteer Jasmine Getting Started Example",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [
+    "Puppetter",
+    "Jasmine",
+    "Page-Object-Model",
+    "ES6"
+  ],
+  "author": "Sridhar Bandi",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/register": "^7.4.4",
+    "@babel/runtime": "^7.4.5",
+    "jasmine": "^3.4.0",
+    "puppeteer": "^1.17.0"
+  }
+}
