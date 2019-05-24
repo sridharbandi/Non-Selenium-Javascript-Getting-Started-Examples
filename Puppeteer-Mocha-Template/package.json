@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Puppeteer Mocha Getting Started Example",
   "scripts": {
-    "test": "./node_modules/.bin/_mocha --require babel-core/register --require babel-polyfill --timeout 60000 tests"
+    "test": "./node_modules/.bin/_mocha --require @babel/register--timeout 60000 tests"
   },
   "keywords": [
     "Puppeteer",
