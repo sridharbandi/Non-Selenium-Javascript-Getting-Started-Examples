@@ -7,10 +7,6 @@ export default class SearchResultsPage{
 
     async isSeleniumPresent(){
         await this.page.waitForSelector(this.LINK_SELENIUM)
-        const links = await this.page.evaluate(() => {
-            return Array.from(document.querySelectorAll('a h3'))
-                .map(link => { return link.textContent })
-        })
-        return links[0];
+        return await this.page.$$eval(this.LINK_SELENIUM, link => link[0].textContent);     
     }
 }
