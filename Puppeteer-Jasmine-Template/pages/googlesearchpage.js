@@ -6,7 +6,7 @@ export default class GoogleSearchPage {
     }
 
     async open(){
-       return this.page.goto('https://google.com', { waitUntil: 'networkidle0' })
+       return this.page.goto('https://google.com', { waitUntil: 'networkidle2' })
     }
 
     async getTitle() {
