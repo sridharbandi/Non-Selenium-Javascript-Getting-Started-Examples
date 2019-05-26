@@ -2,6 +2,7 @@ import { Given, When, Then, After, Before } from 'cucumber';
 import puppeteer from "puppeteer";
 import GoogleSearchPage from '../pages/googlesearchpage';
 import SearchResultsPage from '../pages/searchresultspage';
+import { expect } from 'chai';
 
 let browser
 let page
@@ -24,7 +25,7 @@ When(/^User searches for Selenium$/, async () => {
 });
 
 Then(/^User can see Selenium results$/, async () => {
-    expect(await searchresultspage.isSeleniumPresent()).toContain('Selenium')
+    expect(await searchresultspage.isSeleniumPresent()).to.have.string('Selenium')
 });
 
 After(() => browser.close());
