@@ -21,6 +21,7 @@
     "@babel/preset-env": "^7.4.5",
     "@babel/register": "^7.4.4",
     "@babel/runtime": "^7.4.5",
+    "chai": "^4.2.0",
     "cucumber": "^5.1.0",
     "puppeteer": "^1.17.0"
   }
