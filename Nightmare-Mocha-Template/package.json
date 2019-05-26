@@ -1,0 +1,28 @@
+{
+  "name": "nightmare-mocha-template",
+  "version": "1.0.0",
+  "description": "Nightmare Mocha Getting Started Example",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/_mocha --require @babel/register --timeout 60000 tests"
+  },
+  "keywords": [
+    "Nightmare",
+    "Mocha",
+    "Page-Object-Model",
+    "ES6"
+  ],
+  "author": "Sridhar Bandi",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/register": "^7.4.4",
+    "@babel/runtime": "^7.4.5",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "nightmare": "^3.0.2"
+  }
+}
