@@ -1,0 +1,19 @@
+{
+  "name": "testcafe-teamplate",
+  "version": "1.0.0",
+  "description": "TestCafe Getting Started Example",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/testcafe"
+  },
+  "keywords": [
+    "TestCafe",
+    "Page-Object-Model",
+    "ES6"
+  ],
+  "author": "Sridhar Bandi",
+  "license": "MIT",
+  "devDependencies": {
+    "testcafe": "^1.1.4"
+  }
+}
