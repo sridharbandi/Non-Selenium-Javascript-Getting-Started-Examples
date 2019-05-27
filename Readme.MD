@@ -6,6 +6,8 @@ Below is the list
 2. [Puppeteer Jasmine Template](https://github.com/sridharbandi/Non-Selenium-Javascript-Getting-Started-Examples/tree/master/Puppeteer-Jasmine-Template)
 3. [Puppeteer Cucumber Template](https://github.com/sridharbandi/Non-Selenium-Javascript-Getting-Started-Examples/tree/master/Puppeteer-Cucumber-Template)
 4. [TestCafe Template](https://github.com/sridharbandi/Non-Selenium-Javascript-Getting-Started-Examples/tree/master/TestCafe-Template)
-4. [Nightmare Mocha Template](https://github.com/sridharbandi/Non-Selenium-Javascript-Getting-Started-Examples/tree/master/Nightmare-Mocha-Template)
+5. [Nightmare Mocha Template](https://github.com/sridharbandi/Non-Selenium-Javascript-Getting-Started-Examples/tree/master/Nightmare-Mocha-Template)
+6. [Nightmare Jasmine Template](https://github.com/sridharbandi/Non-Selenium-Javascript-Getting-Started-Examples/tree/master/Nightmare-Jasmine-Template)
+7. [Nightmare Cucumber Template](https://github.com/sridharbandi/Non-Selenium-Javascript-Getting-Started-Examples/tree/master/Nightmare-Cucumber-Template)
 
 If you looking for template which is not in above list, drop me [mail](mailto:sridhar.bandi.ece@gmail.com). I can create it for you.
