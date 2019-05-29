@@ -1,0 +1,19 @@
+{
+  "name": "cypress-template",
+  "version": "1.0.0",
+  "description": "CypressIO Getting Started Example",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cypress run"
+  },
+  "keywords": [
+    "Cypress",
+    "Page-Object-Model",
+    "ES6"
+  ],
+  "author": "Sridhar Bandi",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^3.3.1"
+  }
+}
