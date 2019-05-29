@@ -13,3 +13,6 @@ Nightmare-Jasmine-Template/node_modules
 Nightmare-Jasmine-Template/package-lock.json
 Nightmare-Cucumber-Template/node_modules
 Nightmare-Cucumber-Template/package-lock.json
+Cypress-Template/node_modules
+Cypress-Template/cypress
+Cypress-Template/package-lock.json
