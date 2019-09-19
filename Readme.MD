@@ -11,4 +11,4 @@ Below is the list
 7. [Nightmare Cucumber Template](https://github.com/sridharbandi/Non-Selenium-Javascript-Getting-Started-Examples/tree/master/Nightmare-Cucumber-Template)
 8. [Cypress Template](https://github.com/sridharbandi/Non-Selenium-Javascript-Getting-Started-Examples/tree/master/Cypress-Template)
 
-If you looking for template which is not in above list, drop me [mail](mailto:sridhar.bandi.ece@gmail.com). I can create it for you.
+If you looking for a template which is not in the above list, drop me a [mail](mailto:sridhar.bandi.ece@gmail.com). I can create it for you.
