@@ -9,10 +9,4 @@ export default class SearchResultsPage {
     async getSeleniumText(){
         return this.linkselenium.textContent
     }
-
-    async executeScript(){
-        const getPageUrl = ClientFunction(() => window.location.href);
-        console.log(await getPageUrl());
-        
-    }
 }
