@@ -1,5 +1,5 @@
 export default class SearchResultsPage{
-    get linkselenium() {return 'a[href=\'https://www.seleniumhq.org/\'] > h3';}
+    get linkselenium() {return '.rc h3';}
 
     constructor(nightmare) {
         this.nightmare = nightmare;
