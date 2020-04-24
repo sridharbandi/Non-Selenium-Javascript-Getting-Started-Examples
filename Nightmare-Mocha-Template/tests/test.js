@@ -24,7 +24,7 @@ describe('Google Search', function () {
     it('Search for "Selenium"', async function () {
         await googlesearchpage.searchFor('Selenium')
         const linkselenium = await searchresultspage.getSeleniumText()
-        expect(linkselenium).to.equal('Selenium - Web Browser Automation')
+        expect(linkselenium).to.include('Selenium')
     });
 
     after(() => nightmare.end());
