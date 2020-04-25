@@ -24,7 +24,7 @@ When(/^User searches for Selenium$/, async () => {
 
 Then(/^User can see Selenium results$/, async () => {
     const linkselenium = await searchresultspage.getSeleniumText()
-        expect(linkselenium).to.equal('Selenium - Web Browser Automation')
+        expect(linkselenium).to.include('Selenium')
 });
 
 After(() => nightmare.end());
